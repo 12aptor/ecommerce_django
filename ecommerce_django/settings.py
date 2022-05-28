@@ -52,6 +52,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SWAGGER_SETTINGS = {
+    'LOGIN_URL': '/admin'
+}
+
 ROOT_URLCONF = 'ecommerce_django.urls'
 
 TEMPLATES = [

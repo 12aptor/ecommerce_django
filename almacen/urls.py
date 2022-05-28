@@ -3,5 +3,6 @@ from . import views
 
 
 urlpatterns = [
-    path('almacen/', views.AlmacenView.as_view()),
+    path('almacen/create/', views.PostAlmacenView.as_view()),
+    path('almacen/list/', views.GetAlmacenView.as_view()),
 ]

@@ -5,7 +5,7 @@
     
     - python -m venv venv                            (crea mi entorno virtual)
     - source venv/Scripts/activate                   (activa mi entorno virtual)
-    - pip install django djangorestframework         (instala las dos librerias que necesito para crear mi proyecto)
+    - pip install django djangorestframework         (instala las librerias que necesito para crear mi proyecto)
     - django-admin startproject ecommerce_django     (crea el proyecto del proyecto)
     - django-admin startapp almacen                  (crea una nueva aplicación)
 

@@ -6,7 +6,11 @@ from . import models
 # Create your views here.
 
 
-class AlmacenView(generics.CreateAPIView):
+class PostAlmacenView(generics.CreateAPIView):
 
+    queryset = models.Almacen.objects.all()
+    serializer_class = serializers.AlmacenSerializer
+
+class GetAlmacenView(generics.ListAPIView):
     queryset = models.Almacen.objects.all()
     serializer_class = serializers.AlmacenSerializer
